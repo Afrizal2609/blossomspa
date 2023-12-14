@@ -1,0 +1,225 @@
+@media (min-width: 992px) {
+    .navbar-brand,
+    .nav-link {
+      color: black !important;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .logo{
+        margin-left: -40px;
+        width: 250px;
+        height: 100px;
+    }
+  
+    #home{
+        background-image: url(img/bg-home.png);
+        background-size: cover;
+    }
+
+    .nav-link {
+      text-transform: uppercase;
+      margin-right: 50px;
+    }
+
+    .navbar-nav{
+        margin-left: auto;
+    }
+
+    .nav-item{
+        font-family: 'Comfortaa', sans-serif;
+    }
+  
+    .nav-link:hover::after {
+      content: "";
+      display: block;
+      border-bottom: 3px solid #A79142;
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+    }
+
+    .jumbotron{
+        margin-top:200px;
+    }
+
+    .ind{
+        font-family: 'DM Serif Display', serif;
+        font-size: 64px;
+    }
+
+    .spa{
+        font-family: 'DM Serif Display', serif;
+        font-size: 24px;
+    }
+
+    #intro .introduction {
+        margin-top:100px;
+    }
+
+    #about{
+        margin-bottom: 100px;
+        margin-top: 80px;
+    }
+
+    .about-title{
+        font-family: 'DM Serif Display', serif;
+        font-size: 64px;
+        text-align:center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .img-about{
+        width: 350px;
+        height: 350px;
+        margin-left: 80px;
+    }
+
+    .exp-about{
+        font-family: 'Didact Gothic', sans-serif;
+        font-size: 20px;
+        margin-top:20px;
+        text-align:justify;
+        margin-right: 20px;
+    }
+
+    #about .about .col-lg img {
+        border-radius: 30px;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    #services{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .card{
+        background-color:#F6E8CE;
+        border: 0px;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-text{
+        font-family: 'DM Serif Display', serif;
+        font-size: 18px;
+        text-align: center;
+        height: 55px;
+    }
+
+    .img-circle{
+        margin-left: 13px;
+        width: 200px;
+        align-self: center;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+
+    #testimoni{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #testimoni .quote{
+        font-family: 'Didact Gothic', sans-serif;
+        color: #867E7E;
+    }
+
+    #testimonialText{
+        text-align: justify;
+    }
+
+    #testimoni figure img{
+        width: 60px;
+        margin: 20px 10px 0px;
+        opacity: 0.6;
+    }
+
+    #testimoni figure img.utama{
+        width: 90px;
+        opacity: 1;
+        margin-top: 10px;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    #testimoni figure img.utama:not(.active) {
+        opacity: 0.6;
+        transform: scale(0.8);
+    }
+
+    #testimoni figure.active img.utama {
+        transform: scale(1.2);
+        opacity: 1;
+        width: 90px;
+    }
+
+    #testimoni figure figcaption {
+        display: none;
+        text-align: center;
+        transition: opacity 0.3s ease-in-out;
+    }
+  
+      #testimoni figure.active figcaption {
+        display: block;
+    }
+
+    #testimoni figure h5{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'DM Serif Display', serif;
+        color: black;
+        text-align: center;
+    }
+
+    #testimoni figure p{
+        font-size: 12px;
+        font-family: 'DM Serif Display', serif;
+        font-style: italic;
+        color:#867E7E;
+    }
+
+    #footer .logo-footer{
+        width: 200px;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    #footer{
+        background-color: #F6E8CE;
+    }
+
+    .contact-footer{
+        width: 35px;
+        height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .cf-1{
+        margin-left: 30px;
+        margin-right: -70px;
+    }
+
+    .cf-2{
+        margin-right: -70px;
+    }
+
+    .text-footer{
+        font-family: 'Didact Gothic', sans-serif;
+    }
+
+    .btn-pesan{
+        border-radius: 20px;
+    }
+    
+    .pesan-footer{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .alamat-footer{
+        text-align: right;
+        margin-top: 20px;
+    }
+}
